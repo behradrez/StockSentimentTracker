@@ -1,0 +1,40 @@
+
+.background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -2;
+    width: 2000px;
+    margin: auto;
+    animation:  1s ease-in infinite;
+}
+
+.hider{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2200px;
+    height: 1500px;
+    animation: showHide 5s linear infinite;
+    background: #242424;
+    z-index:-1;
+    top: 53%;
+    overflow: hidden;
+}
+
+@keyframes showHide { /* Chrome, Safari */
+    0% {left:0%}
+    50%{
+        left: 50%;
+        width: 100%;
+    }
+    100% 
+    {left: 80%;
+    width: 1%;}
+}
