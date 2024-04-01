@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6e904b08-ebca-465e-bdba-f3f7fea5c125/resourceGroups/stock-sentiment-tracker/providers/Microsoft.Web/sites/StockSentimentAPI",
+    "appService.deploySubpath": "backend"
+}
